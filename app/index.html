@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Legend — GTA VI Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div>
+    <h1>Leonida Legend</h1>
+    <p class="sub">GTA VI trophy guide &amp; tracker — all 55 PlayStation 5 trophies: 1 platinum, 2 gold, 6 silver, 46 bronze. Every trophy with its official name, description and grade, a guide in our own words with its source, and a checklist that saves in your browser.</p>
+  </div>
+  <div class="progress-box" id="progressBox">
+    <div class="big" id="progressBig">0 / 55</div>
+    <div class="bar"><div class="fill" id="progressFill" style="width:0%"></div></div>
+    <div class="counts" id="progressCounts">Platinum 0/1 · Gold 0/2 · Silver 0/6 · Bronze 0/46</div>
+  </div>
+</header>
+
+<section class="roadmap" id="roadmap">
+  <h2>Roadmap to the platinum</h2>
+  <p class="note">Play in this order. Story first, then stranger strands, activities, collectibles, crime with your partner, and the money and odd jobs — 100% completion and the platinum come last. All 55 trophies are offline and single-player; there are no online trophies. Leave cheats alone until everything is done: using one disables trophies.</p>
+  <ol class="stages" id="stages"></ol>
+</section>
+
+<section class="controls">
+  <input id="search" type="search" placeholder="Search a trophy name, mission or keyword…" aria-label="Search trophies">
+  <div class="filters" id="filters" role="group" aria-label="Filter by kind"></div>
+  <label class="grade-label">Grade
+    <select id="grade">
+      <option value="all">All grades</option>
+      <option value="platinum">Platinum</option>
+      <option value="gold">Gold</option>
+      <option value="silver">Silver</option>
+      <option value="bronze">Bronze</option>
+    </select>
+  </label>
+  <label class="spoiler"><input type="checkbox" id="spoiler" checked> Spoiler-free: hide hidden trophies until earned</label>
+  <div class="io">
+    <button id="export" type="button">Export progress</button>
+    <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
+    <button id="reset" type="button">Reset</button>
+  </div>
+  <p class="missable-note" id="missableNote"></p>
+</section>
+
+<main>
+  <p class="list-meta" id="listMeta"></p>
+  <ul class="trophies" id="rows"></ul>
+  <p class="empty" id="empty" hidden>No trophies match this filter.</p>
+</main>
+
+<footer>
+  <p>Sources for the trophy list: Exophase and PSNProfiles (18 Nov 2026), cross-checked with PlanetGTA6, KeenGamer, GamesFuze, GTA Vice City Hub and eGamers. Names, descriptions and grades are the official PlayStation 5 list; guides are written in our own words for this entry. Where a method is not yet confirmed by any published guide, the guide says so. Original design — no Rockstar Games logo, artwork or game screenshots.</p>
+</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
